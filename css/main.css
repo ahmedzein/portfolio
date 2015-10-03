@@ -22,3 +22,109 @@ body {
 *, *::before, *::after {
     box-sizing: inherit;
 }
+
+@media only screen and (min-width: 60em) {
+  
+  html {
+    font-size: 110%;
+  }
+  
+  .nav {
+    text-align: right;
+    white-space: nowrap;
+  }
+  
+}
+
+@media only screen and (min-width: 90em) {
+  
+  html {
+    font-size: 120%;
+  }
+  
+  .nav {
+    text-align: right;
+    white-space: nowrap;
+  }
+  
+}
+
+@media only screen and (min-width: 120em) {
+  
+  html {
+    font-size: 130%;
+  }
+  
+  .nav {
+    text-align: right;
+    white-space: nowrap;
+  }
+  
+}
+
+
+
+.nav {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  
+}
+
+a {
+  text-decoration: none;
+  text-decoration-color: none;
+}
+
+.nav a {
+  color: black;
+}
+
+.header {
+  position: relative;
+  width: 100%;
+  background-color: rgba(0,0,0,0.05);
+}
+
+.circle {
+  height: 150px;
+  width: 150px;
+  border-radius: 50%;
+  background-color: blue;
+  position: relative;
+  left: calc(50% - 80px);
+}
+
+  
+  
+@media only screen and (min-width: 25em) {
+  
+  .nav li {
+    display: inline-block;
+  }
+  
+  .nav {
+    text-align: right;
+    white-space: nowrap;
+  }
+  
+}
+
+@media only screen and (min-width: 38em) {
+  
+  .nav {
+    text-align: right;
+    white-space: nowrap;
+  }
+  
+}
+
+@media only screen and (min-width: 60em) {
+  
+  
+  .nav {
+    text-align: right;
+    white-space: nowrap;
+  }
+  
+}
