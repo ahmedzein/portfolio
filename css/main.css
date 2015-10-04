@@ -108,12 +108,12 @@ a {
 
 .banner {
   position: relative;
+  overflow: hidden;
 }
-.banner-img {
-  padding-top: 56.25%; 
-  background: url(../images/skyline.jpg) no-repeat center center;
-  background-size: cover;
-  
+.banner-content {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
 }
 
 .me-info {
@@ -125,14 +125,20 @@ a {
   height: 150px;
   width: 150px;
   border-radius: 50%;
-  background-color: blue;
+  background-color: yellow;
   position: relative;
   left: calc(50% - 80px);
-  bottom: 150px;
+  bottom: 500px;
 }
 
 .type-header {
   color: white;
+}
+
+type-banner {
+  color: white;
+  bottom: 500px;
+  position: relative;
 }
   
   
