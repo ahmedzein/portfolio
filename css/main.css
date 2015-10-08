@@ -204,6 +204,10 @@ button:active {
   background-color: black;
   color: white;
 }
+
+.footer {
+  background-color: rgba(0, 153, 102, 0.4);
+}
   
   
 @media only screen and (min-width: 25em) {
