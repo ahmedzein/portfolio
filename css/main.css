@@ -205,6 +205,15 @@ button:active {
   color: white;
 }
 
+.section-obj {
+  background-color: #99FFFF;
+}
+
+.section-sol {
+  background-color: #FFCCFF;
+}
+
+
 .footer {
   background-color: rgba(0, 153, 102, 0.4);
 }
