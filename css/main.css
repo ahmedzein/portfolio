@@ -104,7 +104,7 @@ a {
   position: absolute;
   z-index: 1000;
   width: 100%;
-  background-color: rgba(0, 153, 102, 0.4);
+  background-color: rgba(0, 0, 0, 0.3);
 }
 
 .banner {
@@ -122,12 +122,12 @@ a {
   width: auto;
 }
 
-.banner-img {
+.main-board {
   height: 100%;
   width: 100%;
-  position: absolute;
-  background-image: url(../images/skyline.jpg);
   background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
 }
 
 .me {
@@ -167,9 +167,8 @@ a {
     margin: 0 auto;
 }
 
-box-project {
+.box-project {
   margin: 0 auto;
-  max-width: 30em;
 }
 
 
@@ -283,5 +282,11 @@ button:active {
   .me-info {
     text-align: center;
   }
+  
+  .social {
+    height: 4rem;
+    width: auto;
+}
+
   
 }
