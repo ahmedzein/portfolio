@@ -109,7 +109,7 @@ a {
 
 .logo {
   position: absolute;
-  height: 5rem;
+  height: 3.5rem;
   width: auto;
 }
 
@@ -119,9 +119,11 @@ a {
 }
 .banner-content {
   position: absolute;
-  z-index: 1000;
-  bottom: 0;
+  background-color: rgba(0,0,0,0.3);
+  bottom: 50px;
   width: 100%;
+  margin: 0 auto;
+  color: white;
 }
 
 .social {
@@ -230,7 +232,9 @@ button:active {
 }
 
 .skip-pro:hover {
+  color: white;
   background-color: #000000;
+  transition: all 1s linear;
 }
 
 .footer {
