@@ -87,7 +87,7 @@ body {
 .nav {
   list-style-type: none;
   padding: 0;
-  margin: 0 auto;
+  margin: 0;
   
 }
 
@@ -98,13 +98,17 @@ a {
 
 .nav a {
   color: white;
+  display: inline-block;
 }
 
-.header {
-  position: absolute;
-  z-index: 1000;
-  width: 100%;
-  background-color: rgba(0, 0, 0, 0.3);
+.nav ul {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+.nav li {
+  display: inline-block;
 }
 
 .logo {
@@ -116,7 +120,15 @@ a {
 
 .banner {
   position: relative;
+  text-align: center;
 }
+
+.banner-img {
+  padding-top: 60.25%;
+  background: #000000 url(../images/desk.jpg) no-repeat center center;
+  background-size: cover;  
+}
+
 .banner-content {
   position: absolute;
   background-color: rgba(0,0,0,0.3);
@@ -127,7 +139,7 @@ a {
 }
 
 .social {
-  height: 3rem;
+  height: 2rem;
   width: auto;
 }
 
@@ -140,20 +152,24 @@ a {
 }
 
 .me {
-  height: 150px;
-  width: 150px;
+  height: 90px;
+  width: 90px;
   border-radius: 50%;
   background-color: red;
   position: absolute;
-  left: calc(50% - 80px);
-  bottom: 200px;
+  left: calc(50% - 50px);
+  bottom: 80px;
+}
+
+.title {
+  position: absolute;
+  left: calc(40% - 50px);
+  bottom: 20px;
+  color: green;
 }
 
 .intro-wrap {
-  bottom: 0px;
-  position: absolute;
   background-color: transparent;
-  bottom: 5rem;
   width: 100%;
 }
 
@@ -169,10 +185,11 @@ a {
 }
 
 .box {
-    padding: 1em;
-    padding-top: 2.5em;
-    max-width: 15em;
-    margin: 0 auto;
+  margin: 0 auto;
+  position: absolute;
+  bottom: 26px;
+  left: calc(42% - 50px);
+  
 }
 
 .box-project {
@@ -226,6 +243,10 @@ button:active {
   background-color: #FFCCFF;
 }
 
+.header-colour {
+  background-color: #000;
+}
+
 .skip-pro {
   color: white;
   background-color: rgba(0, 0, 0, 0.3);
@@ -247,6 +268,8 @@ button:active {
   
   .nav li {
     display: inline-block;
+    font-size: 1.0000rem;
+    line-height: 1.5000;
   }
   
   .nav {
@@ -258,12 +281,24 @@ button:active {
     text-align: left;
   }
   
+  .intro-wrap {
+    bottom: 0;
+    position: absolute;
+    background-color: transparent;
+  }
+  
+  .header {
+    position: absolute;
+    z-index: 1000;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.3);
+  }
 }
 
 @media only screen and (min-width: 38em) {
   
   .nav {
-    text-align: right;
+    text-align: center;
     white-space: nowrap;
   }
   
