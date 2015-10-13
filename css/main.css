@@ -112,7 +112,7 @@ a {
 }
 
 .logo {
-  position: absolute;
+  position: relative;
   height: 3.5rem;
   width: auto;
 }
@@ -156,16 +156,28 @@ a {
   width: 90px;
   border-radius: 50%;
   background-color: red;
-  position: absolute;
-  left: calc(50% - 50px);
-  bottom: 80px;
+  position: relative;
+  left: calc(110% - 50px);
+  bottom: 170px;
 }
 
 .title {
-  position: absolute;
-  left: calc(40% - 50px);
-  bottom: 20px;
+  position: relative;
+  left: calc(90% - 50px);
+  bottom: 175px;
   color: green;
+}
+
+.box {
+  margin: 0 auto;
+  position: relative;
+  bottom: 220px;
+  left: calc(95% - 50px);
+  
+}
+
+.wrap-bloc {
+  position: absolute;
 }
 
 .intro-wrap {
@@ -182,14 +194,6 @@ a {
   padding: 2em;
   max-width: 40em;
   margin: 0 auto;
-}
-
-.box {
-  margin: 0 auto;
-  position: absolute;
-  bottom: 26px;
-  left: calc(42% - 50px);
-  
 }
 
 .box-project {
@@ -294,37 +298,11 @@ button:active {
     background-color: rgba(0, 0, 0, 0.3);
   }
   
-  .me {
-    height: 120px;
-    width: 120px;
-    border-radius: 50%;
-    background-color: red;
-    position: absolute;
+  .wrap-bloc {
     left: calc(50% - 50px);
-    bottom: 140;
-}
-
-  .title {
-    position: absolute;
-    left: calc(47% - 65px);
-    bottom: 80;
-    color: orange;
-    font-size: 1.7280rem;
-    line-height: 1.7361;
-}
-  
-  .box {
-    margin: 0 auto;
-    position: absolute;
-    bottom: 90px;
-    left: calc(46% - 50px);
-}
-  
-  .social {
-    height: 2.3rem;
-    width: auto;
-}
-  
+   
+  }
+ 
 }
 
 @media only screen and (min-width: 38em) {
@@ -345,35 +323,7 @@ button:active {
     text-align: left;
   }
   
-  .me {
-    height: 130px;
-    width: 130px;
-    border-radius: 50%;
-    background-color: red;
-    position: absolute;
-    left: calc(50% - 50px);
-    bottom: -20;
-}
-
-  .title {
-    position: absolute;
-    left: calc(45% - 50px);
-    bottom: -90;
-    color: black;
-}
-  
-  .box {
-    margin: 0 auto;
-    position: absolute;
-    bottom: 95px;
-    left: calc(45% - 50px);
-}
-  
-  .social {
-    height: 2.3rem;
-    width: auto;
-}
-  
+ 
 }
 
 @media only screen and (min-width: 60em) {
@@ -387,35 +337,5 @@ button:active {
   .me-info {
     text-align: center;
   }
-  
-  .me {
-    height: 220px;
-    width: 220px;
-    border-radius: 50%;
-    background-color: red;
-    position: absolute;
-    left: calc(50% - 50px);
-    bottom: 30;
-}
-
-  .title {
-    position: absolute;
-    left: calc(45% - 50px);
-    bottom: -90;
-    color: yellow;
-}
-  
-  .box {
-    margin: 0 auto;
-    position: absolute;
-    bottom: 95px;
-    left: calc(45% - 50px);
-}
-  
-  .social {
-    height: 2.3rem;
-    width: auto;
-}
-  
   
 }
