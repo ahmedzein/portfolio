@@ -107,6 +107,13 @@ a {
   background-color: rgba(0, 0, 0, 0.3);
 }
 
+.logo {
+  position: absolute;
+  height: 5rem;
+  width: auto;
+}
+
+
 .banner {
   position: relative;
 }
@@ -150,7 +157,7 @@ a {
 
 .intro-wrap a {
   text-decoration: none;
-  text-decoration-color: none;
+  
 }
 
 .me-info {
@@ -217,9 +224,18 @@ button:active {
   background-color: #FFCCFF;
 }
 
+.skip-pro {
+  color: white;
+  background-color: rgba(0, 0, 0, 0.3);
+}
+
+.skip-pro:hover {
+  background-color: #000000;
+}
 
 .footer {
-  background-color: rgba(0, 153, 102, 0.4);
+  background-color: #000000;
+  color: white;
 }
   
   
