@@ -293,6 +293,38 @@ button:active {
     width: 100%;
     background-color: rgba(0, 0, 0, 0.3);
   }
+  
+  .me {
+    height: 120px;
+    width: 120px;
+    border-radius: 50%;
+    background-color: red;
+    position: absolute;
+    left: calc(50% - 50px);
+    bottom: 140;
+}
+
+  .title {
+    position: absolute;
+    left: calc(47% - 65px);
+    bottom: 80;
+    color: orange;
+    font-size: 1.7280rem;
+    line-height: 1.7361;
+}
+  
+  .box {
+    margin: 0 auto;
+    position: absolute;
+    bottom: 90px;
+    left: calc(46% - 50px);
+}
+  
+  .social {
+    height: 2.3rem;
+    width: auto;
+}
+  
 }
 
 @media only screen and (min-width: 38em) {
@@ -313,6 +345,35 @@ button:active {
     text-align: left;
   }
   
+  .me {
+    height: 130px;
+    width: 130px;
+    border-radius: 50%;
+    background-color: red;
+    position: absolute;
+    left: calc(50% - 50px);
+    bottom: -20;
+}
+
+  .title {
+    position: absolute;
+    left: calc(45% - 50px);
+    bottom: -90;
+    color: black;
+}
+  
+  .box {
+    margin: 0 auto;
+    position: absolute;
+    bottom: 95px;
+    left: calc(45% - 50px);
+}
+  
+  .social {
+    height: 2.3rem;
+    width: auto;
+}
+  
 }
 
 @media only screen and (min-width: 60em) {
@@ -323,24 +384,38 @@ button:active {
     white-space: nowrap;
   }
   
-  .me {
-    bottom: 300px;
-    height: 180px;
-    width: 180px;
-  }
-  
-  .box {
-    max-width: 20em;
-  }
-  
   .me-info {
     text-align: center;
   }
   
-  .social {
-    height: 4rem;
-    width: auto;
+  .me {
+    height: 220px;
+    width: 220px;
+    border-radius: 50%;
+    background-color: red;
+    position: absolute;
+    left: calc(50% - 50px);
+    bottom: 30;
 }
 
+  .title {
+    position: absolute;
+    left: calc(45% - 50px);
+    bottom: -90;
+    color: yellow;
+}
+  
+  .box {
+    margin: 0 auto;
+    position: absolute;
+    bottom: 95px;
+    left: calc(45% - 50px);
+}
+  
+  .social {
+    height: 2.3rem;
+    width: auto;
+}
+  
   
 }
