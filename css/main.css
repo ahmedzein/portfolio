@@ -117,6 +117,13 @@ a {
   width: auto;
 }
 
+.logo-two {
+  height: 4rem;
+  width: auto;
+  padding-left: 1.3rem;
+  padding-right: 1.3rem;
+}
+
 
 .banner {
   position: relative;
@@ -139,8 +146,8 @@ a {
 }
 
 .social {
-  height: 2rem;
-  width: auto;
+  
+  width: 15%;
 }
 
 .main-board {
@@ -156,28 +163,42 @@ a {
   width: 90px;
   border-radius: 50%;
   background-color: red;
+  margin: 0 auto;
+/*
   position: relative;
   left: calc(110% - 50px);
   bottom: 170px;
+*/
 }
 
 .title {
+/*
   position: relative;
   left: calc(90% - 50px);
   bottom: 175px;
+*/
   color: green;
+  font-size: 6vw; 
 }
 
 .box {
-  margin: 0 auto;
+  margin: -10px auto 0;
+/*
   position: relative;
   bottom: 220px;
   left: calc(95% - 50px);
+*/
   
 }
 
 .wrap-bloc {
   position: absolute;
+  width: 100%;
+  text-align: center;
+  top: 50%;
+  border: 1px solid green;
+  transform: translateY(-50%);
+  
 }
 
 .intro-wrap {
@@ -198,6 +219,8 @@ a {
 
 .box-project {
   margin: 0 auto;
+  padding-bottom: none;
+  width: 33%;
 }
 
 
@@ -239,6 +262,14 @@ button:active {
   color: white;
 }
 
+.top-page {
+  color: white;
+}
+
+.top-page:active {
+  transition: all 1s linear;
+}
+
 .section-obj {
   background-color: #99FFFF;
 }
@@ -251,15 +282,15 @@ button:active {
   background-color: #000;
 }
 
-.skip-pro {
+.skip-pro a {
   color: white;
   background-color: rgba(0, 0, 0, 0.3);
+  transition: all 1s linear;
 }
 
-.skip-pro:hover {
+.skip-pro a:hover {
   color: white;
   background-color: #000000;
-  transition: all 1s linear;
 }
 
 .footer {
@@ -285,11 +316,7 @@ button:active {
     text-align: left;
   }
   
-  .intro-wrap {
-    bottom: 0;
-    position: absolute;
-    background-color: transparent;
-  }
+  
   
   .header {
     position: absolute;
@@ -298,10 +325,7 @@ button:active {
     background-color: rgba(0, 0, 0, 0.3);
   }
   
-  .wrap-bloc {
-    left: calc(50% - 50px);
-   
-  }
+  
  
 }
 
@@ -312,9 +336,7 @@ button:active {
     white-space: nowrap;
   }
   
-  .intro-wrap {
-    bottom: 10rem;
-}
+ 
   .button {
     font-size: 1.5em;
   }
