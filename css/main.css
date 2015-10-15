@@ -147,7 +147,7 @@ a {
 
 .social {
   
-  width: 15%;
+  width: 9%;
 }
 
 .main-board {
@@ -178,11 +178,11 @@ a {
   bottom: 175px;
 */
   color: green;
-  font-size: 6vw; 
+  font-size: 9vw; 
 }
 
 .box {
-  margin: -10px auto 0;
+  margin: -27px auto 0;
 /*
   position: relative;
   bottom: 220px;
@@ -196,7 +196,7 @@ a {
   width: 100%;
   text-align: center;
   top: 50%;
-  border: 1px solid green;
+/*  border: 1px solid green;*/
   transform: translateY(-50%);
   
 }
