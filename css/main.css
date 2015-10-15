@@ -93,7 +93,6 @@ body {
 
 a {
   text-decoration: none;
-  text-decoration-color: none;
 }
 
 .nav a {
@@ -228,14 +227,14 @@ a {
   color: white;
 }
 
-type-banner {
+.type-banner {
   color: white;
   bottom: 500px;
   position: relative;
 }
 
-label {
-    display: block;
+.label {
+  display: block;
 }
 
 .bloc {
