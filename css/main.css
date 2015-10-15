@@ -274,7 +274,7 @@ button:active {
 }
 
 .section-sol {
-  background-color: #FFCCFF;
+  background-image: url(../images/desk-texture.jpg);
 }
 
 .header-colour {
@@ -284,6 +284,10 @@ button:active {
 .skip-pro a {
   color: white;
   background-color: rgba(0, 0, 0, 0.3);
+  padding-top: .8em;
+  padding-left: .5em;
+  padding-right: .5em;
+  padding-bottom: 1em;
   transition: all 1s linear;
 }
 
