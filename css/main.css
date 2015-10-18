@@ -91,6 +91,14 @@ body {
   
 }
 
+.nav-footer {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  
+}
+
+
 a {
   text-decoration: none;
 }
@@ -107,6 +115,21 @@ a {
 }
 
 .nav li {
+  display: inline-block;
+}
+
+.nav-footer a {
+  color: white;
+  display: inline-block;
+}
+
+.nav-footer ul {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+.nav-footer li {
   display: inline-block;
 }
 
@@ -212,7 +235,7 @@ a {
 
 .me-info {
   padding: 2em;
-  max-width: 40em;
+  max-width: 44em;
   margin: 0 auto;
 }
 
@@ -284,9 +307,9 @@ button:active {
 .skip-pro a {
   color: white;
   background-color: rgba(0, 0, 0, 0.3);
-  padding-top: .8em;
-  padding-left: .5em;
-  padding-right: .5em;
+  padding-top: 1em;
+  padding-left: 1.5em;
+  padding-right: 1.5em;
   padding-bottom: 1em;
   transition: all 1s linear;
 }
@@ -315,11 +338,16 @@ button:active {
     white-space: nowrap;
   }
   
-  .me-info {
-    text-align: left;
+  .nav-footer li {
+    display: inline-block;
+    font-size: 1.0000rem;
+    line-height: 1.5000;
   }
   
-  
+  .nav-footer {
+    text-align: center;
+    white-space: nowrap;
+  }
   
   .header {
     position: absolute;
@@ -328,8 +356,17 @@ button:active {
     background-color: rgba(0, 0, 0, 0.3);
   }
   
+  .skip-pro a {
+  color: white;
+  background-color: rgba(0, 0, 0, 0.3);
+  padding-top: 1em;
+  padding-left: 3.5em;
+  padding-right: 3.5em;
+  padding-bottom: 1em;
+  transition: all 1s linear;
+}
+
   
- 
 }
 
 @media only screen and (min-width: 38em) {
@@ -339,15 +376,26 @@ button:active {
     white-space: nowrap;
   }
   
+  .nav-footer {
+    text-align: center;
+    white-space: nowrap;
+  }
+  
  
   .button {
     font-size: 1.5em;
   }
   
-  .me-info {
-    text-align: left;
-  }
-  
+  .skip-pro a {
+  color: white;
+  background-color: rgba(0, 0, 0, 0.3);
+  padding-top: 1em;
+  padding-left: 6em;
+  padding-right: 5em;
+  padding-bottom: 1em;
+  transition: all 1s linear;
+}
+
  
 }
 
@@ -359,8 +407,14 @@ button:active {
     white-space: nowrap;
   }
   
-  .me-info {
-    text-align: center;
-  }
-  
+  .skip-pro a {
+  color: white;
+  background-color: rgba(0, 0, 0, 0.3);
+  padding-top: 1em;
+  padding-left: 3.5em;
+  padding-right: 3.5em;
+  padding-bottom: 1em;
+  transition: all 1s linear;
+}
+
 }
