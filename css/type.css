@@ -143,6 +143,10 @@ small, .milli {
   margin-bottom: 2.6000rem;
 }
 
+.push-triple, .push-3 {
+  margin-bottom: 5.2000rem;
+}
+
 .push-half, .push-1-2 {
   margin-bottom: 0.6500rem;
 }

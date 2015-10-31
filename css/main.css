@@ -139,14 +139,6 @@ a {
   width: auto;
 }
 
-.logo-two {
-  height: 4rem;
-  width: auto;
-  padding-left: 1.3rem;
-  padding-right: 1.3rem;
-}
-
-
 .banner {
   position: relative;
   text-align: center;
@@ -303,6 +295,35 @@ button:active {
 .header-colour {
   background-color: #000;
 }
+
+
+
+
+
+
+
+
+
+
+
+.logo-two {
+  width: 5rem;
+}
+
+.box-two {
+  margin: 0 35px 0;
+}
+
+.wrap-bloc-2 {
+  width: 100%;
+  text-align: center;
+  padding-bottom: 2rem;
+}
+
+.box-project {
+  width: 33%;
+}
+
 
 .skip-pro a {
   color: white;
