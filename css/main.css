@@ -300,19 +300,13 @@ button:active {
 .header-colour {
   background-color: #000;
 }
+/*
 
-
-
-
-
-
-
-
-
-
+Skip between projects 
+*/
 
 .logo-two {
-  width: 5rem;
+  width: 3rem;
 }
 
 .box-two {
@@ -338,6 +332,7 @@ button:active {
   padding-right: 1.5em;
   padding-bottom: 1em;
   transition: all 1s linear;
+  display: block;
 }
 
 .skip-pro a:hover {
@@ -345,11 +340,32 @@ button:active {
   background-color: #000000;
 }
 
+.skip a {
+  color: white;
+  background-color: rgba(0,0,0, 0.3);
+  transition: all 1s linear;
+  width: 100%;
+}
+  
+
 .footer {
   background-color: #000000;
   color: white;
 }
   
+/*Hover over images titles*/
+
+.branding:hover {
+  position: relative;
+  background-color: rgba(0,0,0,0.3);
+  transition: all 1s linear;
+  
+}
+
+.piece {
+  position: relative;
+}
+
   
 @media only screen and (min-width: 25em) {
   
