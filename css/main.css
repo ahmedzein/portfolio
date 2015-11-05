@@ -362,7 +362,7 @@ Skip between projects
   left: 0;
   right: 0;
   bottom: 0;
-  background-color: rgba(0,0,0,0.7);
+  background-color: rgba(0,0,0,0.6);
 }
 
 .branding h2 {
@@ -446,30 +446,30 @@ Skip between projects
   }
   
   .skip-pro a {
-  color: white;
-  background-color: rgba(0, 0, 0, 0.3);
-  padding-top: 1em;
-  padding-left: 6em;
-  padding-right: 5em;
-  padding-bottom: 1em;
-  transition: all 1s linear;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.3);
+    padding-top: 1em;
+    padding-left: 6em;
+    padding-right: 5em;
+    padding-bottom: 1em;
+    transition: all 1s linear;
 }
   
   .branding:hover {
-  background-color: rgba(0,0,0,0.7);
-  transition: all 1s linear;
+    background-color: rgba(0,0,0,0.7);
+    transition: all 1s linear;
   
 }
-.branding {
-  top: 0;
-  bottom: 0;
-  background-color: transparent;
-}
+  .branding {
+    top: 0;
+    bottom: 0;
+    background-color: transparent;
+  }
 
-.branding h2 {
-  position: absolute;
-  bottom: 0;
-}
+  .branding h2 {
+    position: absolute;
+    bottom: 0;
+  }
 
  
 }
