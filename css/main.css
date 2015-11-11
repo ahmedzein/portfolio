@@ -469,6 +469,11 @@ Skip between projects
   .branding h2 {
     position: absolute;
     bottom: 0;
+    color: transparent;
+  }
+  
+  .branding h2:hover {
+    color: white;
   }
 
  
