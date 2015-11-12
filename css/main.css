@@ -191,8 +191,8 @@ a {
   left: calc(90% - 50px);
   bottom: 175px;
 */
-  color: green;
-  font-size: 9vw; 
+ 
+  width: 40%; 
 }
 
 .title-2 {
