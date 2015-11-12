@@ -474,6 +474,7 @@ Skip between projects
   
   .branding h2:hover {
     color: white;
+    transition: all 1s linear;
   }
 
  
