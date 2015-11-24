@@ -270,6 +270,14 @@ a {
 .header-colour {
   background-color: #000;
 }
+
+.illustration {
+  width: 100%;
+  display: block;
+}
+
+
+
 /*
 
 Skip between projects 
