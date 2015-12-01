@@ -161,11 +161,12 @@ a {
 
 .social {
   
-  width: 9%;
+  width: 7%;
 }
 
 .illus {
-  width: 9%;
+  width: 10%;
+  margin: 0 auto;
 }
 
 .main-board {
@@ -174,13 +175,6 @@ a {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
-}
-
-.me {
-  height: 60px;
-  width: 60px;
-  background-image: url(../images/me-illus.svg);
-  margin: 0 auto;
 }
 
 .title {
