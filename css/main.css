@@ -385,7 +385,7 @@ Skip between projects
 @media only screen and (min-width: 38em) {
   
   .nav {
-    text-align: center;
+    text-align: right;
     white-space: nowrap;
   }
   
