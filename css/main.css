@@ -165,7 +165,7 @@ a {
 }
 
 .illus {
-  width: 10%;
+  width: 15%;
   margin: 0 auto;
 }
 
@@ -247,10 +247,16 @@ a {
   background-color: #000;
 }
 
+/*
+
+illustration for 5th page
+
 .illustration {
-  width: 100%;
+  width: auto;
+  height: 250px;
   display: block;
 }
+*/
 
 
 
