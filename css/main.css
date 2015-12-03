@@ -247,16 +247,21 @@ a {
   background-color: #000;
 }
 
+
+
+/*illustration for 5th page*/
+
+
 /*
-
-illustration for 5th page
-
 .illustration {
-  width: auto;
-  height: 250px;
+  width: 100%;
   display: block;
 }
 */
+
+.wrap-bloc-3 {
+  
+}
 
 
 
@@ -432,7 +437,7 @@ Skip between projects
     color: transparent;
   }
   
-  .branding h2:hover {
+  .branding:hover h2 {
     color: white;
     transition: all 1s linear;
   }
