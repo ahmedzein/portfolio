@@ -101,6 +101,7 @@ body {
 
 a {
   text-decoration: none;
+  color: black;
 }
 
 .nav a {
@@ -196,6 +197,7 @@ a {
   text-align: center;
   top: 50%;
 /*  border: 1px solid green;*/
+  -webkit-transform: translateY(-50%);
   transform: translateY(-50%);
   
 }
@@ -232,6 +234,7 @@ a {
 }
 
 .top-page:active {
+  -webkit-transition: all 1s linear;
   transition: all 1s linear;
 }
 
@@ -289,7 +292,8 @@ Skip between projects
   padding-left: 1.5em;
   padding-right: 1.5em;
   padding-bottom: 1em;
-  transition: all 1s linear;
+  -webkit-transition: all 0.5s linear;
+  transition: all 0.5s linear;
   display: block;
 }
 
@@ -301,7 +305,8 @@ Skip between projects
 .skip a {
   color: white;
   background-color: rgba(0,0,0, 0.3);
-  transition: all 1s linear;
+  -webkit-transition: all .5s linear;
+  transition: all 0.5s linear;
   width: 100%;
 }
   
@@ -374,13 +379,14 @@ Skip between projects
   }
   
   .skip-pro a {
-  color: white;
-  background-color: rgba(0, 0, 0, 0.3);
-  padding-top: 1em;
-  padding-left: 3.5em;
-  padding-right: 3.5em;
-  padding-bottom: 1em;
-  transition: all 1s linear;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.3);
+    padding-top: 1em;
+    padding-left: 3.5em;
+    padding-right: 3.5em;
+    padding-bottom: 1em;
+    -webkit-transition: all 0.5s linear;
+    transition: all 0.5s linear;
 }
 
   
@@ -410,12 +416,14 @@ Skip between projects
     padding-left: 6em;
     padding-right: 5em;
     padding-bottom: 1em;
-    transition: all 1s linear;
+    -webkit-transition: all 0.5s linear;
+    transition: all 0.5s linear;
 }
   
   .branding:hover {
     background-color: rgba(0,0,0,0.7);
-    transition: all 1s linear;
+    -webkit-transition: all 0.5s linear;
+    transition: all 0.5s linear;
   
 }
   .branding {
@@ -432,7 +440,8 @@ Skip between projects
   
   .branding:hover h2 {
     color: white;
-    transition: all 1s linear;
+    -webkit-transition: all .5s linear;
+    transition: all .5s linear;
   }
 
  
@@ -447,13 +456,44 @@ Skip between projects
   }
   
   .skip-pro a {
-  color: white;
-  background-color: rgba(0, 0, 0, 0.3);
-  padding-top: 1em;
-  padding-left: 3.5em;
-  padding-right: 3.5em;
-  padding-bottom: 1em;
-  transition: all 1s linear;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.3);
+    padding-top: 1em;
+    padding-left: 3.5em;
+    padding-right: 3.5em;
+    padding-bottom: 1em;
+    -webkit-transition: all 0.5s linear;
+    transition: all 0.5s linear;
 }
 
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*
+
+body {
+  xperspective: 1px;
+  xtransform-style: preserve-3d;
+}
+
+.header {
+  transform: rotateX(50deg);
+}
+
+main {
+  transform: rotateX(50deg);
+}*/
