@@ -84,13 +84,6 @@ img {
 }
 
 
-.logo {
-  background-image: url(../images/namebw.svg);
-}
-
-.logo:hover {
-  background-image: url(../images/name.svg);
-}
 
 
 
