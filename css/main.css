@@ -25,6 +25,18 @@ body {
     box-sizing: inherit;
 }
 
+img {
+  width: 100%;
+}
+
+.clearfix:after { 
+   content: "."; 
+   visibility: hidden; 
+   display: block; 
+   height: 0; 
+   clear: both;
+}
+
 @media only screen and (min-width: 60em) {
   
   html {
@@ -134,9 +146,10 @@ a {
   display: inline-block;
 }
 
-.logo {
+.lion-logo {
   position: relative;
-  height: 3.5rem;
+  height: 3rem;
+  padding-top: 0.75rem;
   width: auto;
 }
 
@@ -315,9 +328,104 @@ Skip between projects
   background-color: #000000;
   color: white;
 }
-  
-/*Hover over images titles*/
 
+/******************* Transitions 
+#rotateContainer {
+  height: 500px;
+}
+
+.front, .back{
+  position: absolute;
+  height: 100%;
+}
+
+[data-state="show"] {
+    transform: rotateX(0deg);
+    box-shadow: -5px 5px 5px #aaa;
+    -webkit-animation: fromBottom 750ms 1 ease-in-out;
+    animation: fromBottom 750ms 1 ease-in-out;
+}
+@-webkit-keyframes fromBottom {
+    0% {
+        transform: rotateX(90deg);
+        box-shadow: -5px 5px 5px #aaa;
+    }
+    
+    100% {
+        transform: rotateX(0deg);
+        box-shadow: -5px 5px 5px #aaa;
+    }
+}
+@keyframes fromBottom {
+    0% {
+        transform: rotateX(90deg);
+        box-shadow: -5px 5px 5px #aaa;
+    }
+    
+    100% {
+        transform: rotateX(0deg);
+        box-shadow: -5px 5px 5px #aaa;
+    }
+}
+
+[data-state="toTop"] {
+    transform: rotateX(90deg);
+    -webkit-animation: toTop 750ms 1 ease-in-out;
+    animation: toTop 750ms 1 ease-in-out;
+}
+@-webkit-keyframes toTop {
+    0% {
+        transform: rotateX(0deg);
+        box-shadow: -5px 5px 5px #aaa;
+    }
+    
+    100% {
+        transform: rotateX(90deg);
+        box-shadow: -5px 5px 5px #aaa;
+    }
+}
+@keyframes toTop {
+     0% {
+        transform: rotateX(0deg);
+        box-shadow: -5px 5px 5px #aaa;
+    }
+    
+    100% {
+        transform: rotateX(90deg);
+        box-shadow: -5px 5px 5px #aaa;
+    }
+}
+
+[data-state="normalBack"] {
+    transform: rotateX(0deg);
+    -webkit-animation: toBottom 750ms 1 ease-in-out;
+    animation: toBottom 750ms 1 ease-in-out;
+}
+@-webkit-keyframes toBottom {
+    0% {
+        transform: rotateX(90deg);
+        box-shadow: -5px 5px 5px #aaa;
+    }
+    
+    100% {
+        transform: rotateX(0deg);
+        box-shadow: -5px 5px 5px #aaa;
+    }
+}
+@keyframes toBottom {
+     0% {
+        transform: rotateX(90deg);
+        box-shadow: -5px 5px 5px #aaa;
+    }
+    
+    100% {
+        transform: rotateX(0deg);
+        box-shadow: -5px 5px 5px #aaa;
+    }
+}
+
+
+/*Delete*/
 
 .branding {
   color: white;
@@ -346,7 +454,45 @@ Skip between projects
   width: 100%;
 }
 
-  
+/*Flip Images
+#container {
+  position: relative;
+  margin: 10px auto;
+  width: 450px;
+  height: 281px;
+  z-index: 1;
+}
+#container {
+  perspective: 1000;
+}
+#flipFront {
+  width: 100%;
+  height: 100%;
+  transform-style: preserve-3d;
+  transition: all 1.0s linear;
+}
+#container:hover #flipFront {
+  transform: rotateX(180deg);
+  box-shadow: -5px 5px 5px #aaa;
+}
+.face {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  backface-visibility: hidden;
+}
+.face.back {
+  display: block;
+  transform: rotateX(180deg);
+  box-sizing: border-box;
+  padding: 10px;
+  color: white;
+  text-align: center;
+  background-color: #aaa;
+}
+/*Delete*/
+
+
 @media only screen and (min-width: 25em) {
   
   .nav li {
@@ -467,19 +613,3 @@ Skip between projects
 }
 
 }
-
-
-/*
-
-body {
-  xperspective: 1px;
-  xtransform-style: preserve-3d;
-}
-
-.header {
-  transform: rotateX(50deg);
-}
-
-main {
-  transform: rotateX(50deg);
-}*/
